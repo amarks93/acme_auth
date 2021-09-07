@@ -30,3 +30,10 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
+
+// 1, app post user info ---> server
+//2, verify user indo --- >if correct ----> create and send back token
+//3,client storage the token 
+//4, client send req (https?) with token,
+// 5, server verify token --->if correct ----> response
